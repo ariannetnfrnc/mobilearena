@@ -1,0 +1,240 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 55% 40%;
+    padding: 50px 0px 80px;
+}
+.ip6ttl{
+    font-family: Raleway;
+    text-align: center;
+    margin: auto;
+    width:70%;
+    color: #494745;
+   
+}
+.ip6ttl h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: -20px;
+}
+.ip6ttl h2{
+    font-weight: lighter;
+}
+.img-responsive{
+    float: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.dotter{ width:100%; }
+.dotter .dot-ii{ height:75px; width:75px; display: inline-block; border-radius: 50%; margin:2% 1%;}
+.dotter .dot-ii:first-child{ background-color: #999999; }
+.dotter .dot-ii:nth-child(2){ background-color: #DDDDDD; }
+.dotter .dot-ii:nth-child(3){ background-color: #EEDDCC; }
+.dotter .dot-ii:nth-child(4){ background-color: #E7BEB8; }
+
+.factoryunlock{
+    background-color: #d9440f;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+
+
+.factoryunlock{
+    width: 100%;
+    margin: auto;
+    font-family: Raleway;
+}
+.factoryunlock h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.factoryunlock h4{
+    font-size: 30px;
+    font-weight: 400;
+     width: 60%;
+    margin: auto;
+    
+}
+
+
+.warranty{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: Raleway;
+}
+
+.warranty h2{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #d9440f;
+    
+}
+.warranty h4{
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.gray{
+    background-color: #eee;
+    padding: 50px 20%;
+    width: 100%;
+}
+
+.specifications{
+   
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+}
+
+.gray h2{
+    text-align: center;
+    color: gray;
+    font-family: Roboto, 400;
+    font-size: 50px;
+    margin: -10px 0px;
+    letter-spacing: 10px;
+}
+.specifications h5{
+    color: gray;
+    margin-bottom: -15px;
+    font-size: 17px;
+    font-family: Raleway;
+    text-transform: uppercase;
+   
+}
+
+.desc{
+    float: right;
+    padding-right: 10px;
+    font-family: Raleway;
+    font-weight: lighter;
+}
+.specs{
+    width: 50%;
+}
+.specs h5{
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family: Raleway;
+
+}
+.shipping{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 0px;;
+}
+.shippingtitle{
+   color: #d9440f;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 50px;
+}
+.shippingtitle img{
+    width: 50px;
+    margin-top: -10px;
+    vertical-align: middle
+    
+}
+
+
+.shipping h5{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.shipping h5:nth-child(1){
+    font-weight: bolder !important;;
+    font-size: 20px;  
+    margin-bottom: -20px; 
+}
+.cont{
+    padding: 50px 0px;
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 800px){
+    .gray{
+        padding: 40px 20px;
+    }
+    .ip6ttl h1{
+        font-size: 50px;
+    }
+    .dotter .dot-ii{
+        height:50px;
+        width: 50px;
+    }
+    .specifications,
+    .wrapper,
+    .factoryunlock,
+    .shipping{
+        width: 100% !important;;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .specifications h5{
+        font-size: 14px;
+    }
+    .cont{
+        width: 90%;
+        text-align: center;
+    }
+    .img-responsive{
+        padding: 20px;
+    }
+    .gray h2,
+    .cont h2,
+    .warranty h2,
+    .factoryunlock h2{
+        font-size: 29px;
+        letter-spacing: 2px;
+    }
+    .shippingtitle{
+        font-size: 29px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        
+    }
+    .shippingtitle img{
+        width: 30px;
+       
+    }
+    .gray h4,
+    .cont h4,
+    .warranty h4,
+    .factoryunlock h4{
+        font-size: 18px;
+        padding: 0px;
+        width: 90%;
+    }
+    .shipping{
+        text-align: center;
+    }
+}
